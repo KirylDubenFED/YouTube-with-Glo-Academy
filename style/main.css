@@ -44,8 +44,8 @@ body {
     justify-content: space-between;
     align-items    : center;
     padding-right  : 17px;
-    max-width: 830px;
-    width: 50%;
+    max-width      : 830px;
+    width          : 50%;
 }
 
 .input__search {
@@ -60,7 +60,7 @@ body {
     width     : 19px;
     border    : none;
     background: transparent;
-    cursor: pointer;
+    cursor    : pointer;
 }
 
 .icon__search {
@@ -68,14 +68,14 @@ body {
 }
 
 .icons {
-    display: flex;
+    display    : flex;
     align-items: center;
     margin-left: auto;
 }
 
 .icons__link {
     text-decoration: none;
-    opacity: 0.24;
+    opacity        : 0.24;
 }
 
 .icons__link:hover {
@@ -91,7 +91,7 @@ body {
 }
 
 .user__avatar {
-    width: 40px;
-    height: 40px;
+    width        : 40px;
+    height       : 40px;
     border-radius: 50%;
 }
