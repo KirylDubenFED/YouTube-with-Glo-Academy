@@ -126,3 +126,16 @@ list-style: none;
 .nav__text {
     margin-left: 13px;
 }
+
+.nav__image {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
+
+.nav__title {
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+margin-bottom: 30px;
+}
