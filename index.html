@@ -10,6 +10,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Roboto:wght@400;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./style/normalize.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
   <link rel="stylesheet" href="./style/main.css">
   <title>YouTube</title>
 </head>
@@ -196,11 +198,31 @@
       <div class="channel">
         <a href="#" class="channel__title">
           <img src="./img/Belle Briggs.png" alt="Belle" class="channel__avatar">
-        <span class="channel__text">Dollie Blair</span>
+          <span class="channel__text">Dollie Blair</span>
         </a>
+        <!-- Slider main container -->
+<div class="swiper channel__slider">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">Slide 1</div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+    <div class="swiper-slide">Slide 4</div>
+    <div class="swiper-slide">Slide 5</div>
+    <div class="swiper-slide">Slide 6</div>
+  </div>
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+
       </div>
     </main>
   </div>
 
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="./js/main.js"></script>
 </body>
+
 </html>
