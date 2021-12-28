@@ -4,6 +4,8 @@
 
 body {
     font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 ul {
@@ -15,6 +17,11 @@ ul {
     display      : flex;
     align-items  : center;
     margin-bottom: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
 }
 
 .menu__button {
@@ -104,6 +111,18 @@ ul {
 
 .sidebar {
     padding-left: 32px;
+    position: fixed;
+    left: 0;
+    top: 114px;
+    height: calc(100% - 114px);
+    overflow-y: auto;
+    width: 12%;
+}
+
+.content {
+    width: 100%;
+    margin-top: 85px;
+    padding-left: 13%;
 }
 
 .nav__menu {
@@ -152,3 +171,18 @@ ul {
     line-height  : 23px;
     margin-bottom: 30px;
 }
+
+.channel__title {
+display: flex;
+align-items: center;
+text-decoration: none;
+color: #19202C;
+}
+
+.channel__avatar {
+    widows: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.Channel__text {}
