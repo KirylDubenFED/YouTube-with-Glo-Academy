@@ -193,3 +193,36 @@ line-height: 33px;
 .Channel__text {
     margin-left: 20px;
 }
+
+.video__thumb {
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 14px;
+    position: relative;
+}
+
+.thumbnail{
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.video__duration {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    padding: 3px 9px;
+}
+
+.video__title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #19202c;
+}
